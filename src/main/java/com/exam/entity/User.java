@@ -23,6 +23,7 @@ public class User {
     private boolean user_enable= true;
     private String profile_photo;
 
+
     //User can have many roles -  one to many relationship
     //cascade -> whenever user is  deleted orr save automatically his userRoles are also deleted or save
     //fetch -> I want to fetch all the roles that user have whenever I fetch user
